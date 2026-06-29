@@ -6,6 +6,11 @@ export type AppLayoutProps = {
     breadcrumbs?: BreadcrumbItem[];
 };
 
+export type MainLayoutProps = {
+    header: ReactNode;
+    content: ReactNode;
+}
+
 export type AppVariant = 'header' | 'sidebar';
 
 export type AuthLayoutProps = {
